@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Inter Tight';
+}
+
+
+/* MOBILE */
+@media (max-width: 390px){
+
+    /* HEADER */
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 64px;
+        width: 100%;
+        
+    }
+
+    .logo-header{
+        width: 80px;
+        height: 30px;
+        margin-left: 10px;
+    }
+
+    /* BLOG */
+
+    .section-blog{
+        height: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-blog{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        color: #243010;
+    }
+
+    .title-blog{
+        font-size: 54px;
+    }
+
+    .paraph-blog{
+        display: flex;
+        font-size: 20px;
+        line-height: 28px;
+        justify-content: center;
+        align-items: center;
+        color: #445218;
+    }
+
+    /* SECTION RECETTE */
+
+    .section-recettes{
+        height: 1631.4px;
+        width: 100%;
+        background-color: #C0CC9B;
+        border-top-left-radius: 32px;
+        border-top-right-radius: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-recettes{
+        width: 358px;
+        height: 1535.4px;
+        margin: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .container-title-recette{
+        height: 82px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-left: 10px;
+        margin-bottom: 60px;
+    }
+
+    .paraph-recette{
+        color: #87A330;
+        line-height: 22px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .title-recette{
+        color: #243010;
+        line-height: 48px;
+        font-weight: 700;
+        font-size: 37.4px;
+    }
+
+    /* CARD RECETTE */
+
+    .card-recette{
+        background-color: #F4F5F0;
+        height: 441.8px;
+        border-radius: 16px;
+    }
+
+    .img-recette{
+        width: 100%;
+    }
+
+    .info-recette{
+        padding: 24px 32px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .container-energy{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    h5{
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 18px;
+        color: #87A330;
+    }
+
+    h3{
+        color: #243010;
+        font-weight: 700;
+        line-height: 28px;
+    }
+
+    .p-card{
+        color: #445218;
+        font-weight: 400;
+        line-height: 19px;
+    }
+    
+}
