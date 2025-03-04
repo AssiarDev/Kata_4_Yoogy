@@ -62,29 +62,21 @@ html, body {
     /* SECTION RECETTE */
 
     .section-recettes{
-        /* height: 1631.4px; */
-        width: 100%;
         background-color: #C0CC9B;
         border-top-left-radius: 32px;
         border-top-right-radius: 32px;
         display: flex;
-        /* flex-direction: column; */
         align-items: flex-start;
         justify-content: center;
-        padding: 20px 0; /* Ajoute un léger espacement si nécessaire */
-    height: auto; /* La hauteur s'adapte au contenu */
+        height: 1631px;
     }
 
     .container-recettes{
-        /* width: 350px; */
-        height: 1535.4px;
         display: flex;
-        /* flex-direction: row; */
         flex-wrap: wrap;
-        justify-content: flex-start;
-        align-content: flex-start;
-        /* align-items: flex-start; */
-        /* width: 100%; */
+        justify-content: center;
+        align-items: flex-start;
+        width: 358px;
         max-width: 720px;
         gap: 30px;
     }
@@ -94,6 +86,7 @@ html, body {
         height: 150px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         gap: 12px;
         margin-left: 10px;
     }
@@ -121,7 +114,6 @@ html, body {
         height: 441.8px;
         width: 300px;
         border-radius: 16px;
-        margin: 0;
     }
 
     .img-recette{
@@ -272,13 +264,11 @@ html, body {
         gap: 50px;
     }
 
-    .container-title-recette{
-        /* background-color: red; */
-    }
-
     .container-recettes{
         width: 100%;
         display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
         gap: 20px;
     }
 
@@ -288,3 +278,5 @@ html, body {
     }
 
 } 
+
+/* LAPTOP */
