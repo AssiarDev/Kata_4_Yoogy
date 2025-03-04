@@ -5,12 +5,14 @@
     font-family: 'Inter Tight';
     list-style-type: none;
 }
-
+html, body {
+    overflow-x: hidden;
+}
 
 /* MOBILE */
-@media (max-width: 390px){
 
-    /* HEADER */
+@media(min-width: 320px){
+
     .nav{
         display: flex;
         justify-content: space-between;
@@ -68,24 +70,28 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     .container-recettes{
-        width: 358px;
+        width: 350px;
         height: 1535.4px;
-        margin: 40px;
+        /* margin: 40px; */
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         gap: 30px;
     }
 
     .container-title-recette{
-        height: 82px;
+        width: 100%;
+        height: 150px;
         display: flex;
         flex-direction: column;
         gap: 12px;
         margin-left: 10px;
-        margin-bottom: 60px;
+        /* margin-bottom: -0px; */
     }
 
     .paraph-recette{
@@ -93,6 +99,7 @@
         line-height: 22px;
         text-transform: uppercase;
         font-weight: 600;
+        margin-left: 20px;
     }
 
     .title-recette{
@@ -100,6 +107,7 @@
         line-height: 48px;
         font-weight: 700;
         font-size: 37.4px;
+        margin-left: 20px;
     }
 
     /* CARD RECETTE */
@@ -107,6 +115,7 @@
     .card-recette{
         background-color: #F4F5F0;
         height: 441.8px;
+        width: 300px;
         border-radius: 16px;
     }
 
@@ -198,5 +207,80 @@
         align-items: center;
         gap: 30px;
     }
+
+}
+
+@media(min-width: 375px){
+
+    .card-recette{
+        width: 100%;
+    }
+
+    .paraph-recette{
+        margin-left: 0;
+    }
+
+    .title-recette{
+        margin-left: 0;
+    }
+}
+
+@media(min-width: 425px){
     
+    .container-recettes{
+        width: 400px;
+        /* height: 1800px; */
+    }
+}
+
+@media(min-width: 480px){
+    .container-recettes{
+        width: 450px;
+    }
+
+    .info-recette{
+        gap: 20px;
+    }
+
+}
+
+@media(min-width: 520px){
+    .container-recettes{
+        width: 480px;
+    }
+
+    .info-recette{
+        gap: 20px;
+    }
+
+}
+
+/* TABLET */
+
+@media(max-width: 768px){
+
+    .text-blog{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .container-recettes{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+
+    }
+
+    .card-recette{
+        width: 350px;
+        height: 450px;
+    }
+
 }
