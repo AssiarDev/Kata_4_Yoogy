@@ -51,12 +51,10 @@ html, body {
     }
 
     .paraph-blog{
-        display: flex;
         font-size: 20px;
         line-height: 28px;
-        justify-content: center;
-        align-items: center;
         color: #445218;
+        text-align: center;
     }
 
     /* SECTION RECETTE */
@@ -77,7 +75,7 @@ html, body {
         justify-content: center;
         align-items: flex-start;
         width: 358px;
-        max-width: 720px;
+        /* max-width: 720px; */
         gap: 30px;
     }
 
@@ -268,7 +266,6 @@ html, body {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: flex-start;
         gap: 20px;
     }
 
@@ -280,3 +277,51 @@ html, body {
 } 
 
 /* LAPTOP */
+
+@media(min-width: 1440px){
+    .section-recettes{
+        height: auto;
+    }
+
+    .card-recette{
+        width: 400px;
+        height: 400px;
+    }
+
+    .container-recettes{
+        padding-bottom: 20px;
+    }
+
+    .nav-footer{
+        height: 126px;
+        display: flex;
+        flex-direction: row;
+        gap: 200px;
+    }
+
+    .nav-footer-list{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media(min-width: 1920px){
+
+    .section-recettes{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        height: 732px;
+    }
+
+    .container-recettes{
+        width: 1312px;
+        height: 588px;
+    }
+
+    .card-recette{
+        width: 400px;
+        height: 400px;
+    }
+
+}
